@@ -144,7 +144,7 @@ h2 {
 .profile {
   text-align: center;
   border-radius: 65% 70%;
-  width: 4em;
+  width: 9em;
   padding: 1em;
   opacity: 0.5;
   transition: 1.5s;
@@ -165,6 +165,7 @@ h2 {
 
 .authors-profile {
   flex-basis: 5em;
+  justify-content: center;
 }
 
 .aboutContent {

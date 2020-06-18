@@ -1,5 +1,6 @@
 import React from 'react';
 import gifLogo from '../images/logoAnimateNoLoop.gif';
+// import gifLogoo from '../images/realizeLogoPNG.png';
 
 export default function Title() {
   return (
