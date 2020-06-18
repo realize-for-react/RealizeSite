@@ -1,5 +1,5 @@
 import React from 'react'
-import treeViz from '../images/treeVizCropped1.gif';
+import treeViz from '../images/treeVizDemo.gif';
 
 export default function About() {
   return (

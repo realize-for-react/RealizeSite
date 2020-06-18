@@ -17,9 +17,10 @@ module.exports = {
         google: {
           families: ['MuseoModerno', 'Roboto', 'Droid Serif', 'Source Sans Pro']
         },
-        icon: 'src/pages/images/realizeIcon.png',
+        icon: 'src/pages/images/favicon.ico',
       }
     },
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-sass`, 
+    `gatsby-plugin-react-helmet`
   ]
 }

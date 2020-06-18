@@ -141,7 +141,7 @@ h2 {
   opacity: 0.5;
   transition: 1.0s; 
 }
-:hover{
+.desktopDemo:hover{
   opacity: 1.0;
 } 
 
@@ -155,7 +155,7 @@ h2 {
   transition: 1.5s;
 
 }
-:hover {
+.profile:hover {
   opacity: 1.0;
 }
 
@@ -170,6 +170,11 @@ h2 {
 
 .authors-profile, .aboutWrap {
   @extend %flex-row-setup;
+}
+
+.authors-profile {
+  overflow: none;
+  width: 50%;
 }
 
 .aboutContent {
