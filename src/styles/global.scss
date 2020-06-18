@@ -40,7 +40,7 @@ $bg-color-lighter: #0b1419;
 %body-container-setup {
   padding: 2em;
   z-index: -1;
-  font-size: 1em;
+  font-size: 1.8em;
   color: rgb(160, 175, 194);
 }
 
@@ -154,10 +154,6 @@ h2 {
   opacity: 1.0;
 }
 
-
-
-
-
 .authors, .about{
   @extend %flex-column-setup;
   justify-content: center;
@@ -190,7 +186,7 @@ h2 {
 .authorLink {
   a {
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 0.5em;
     color: $link-default-color;
     text-decoration: none;
     transition: 0.5s;
@@ -200,6 +196,10 @@ h2 {
   } 
 }
 
+
+.authors-title {
+  justify-content: center;
+}
 
 
 

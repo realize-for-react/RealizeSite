@@ -3,7 +3,7 @@ import treeViz from '../images/treeVizDemo.gif';
 
 export default function About() {
   return (
-    <div className="about"><a id="about"></a>''
+    <div className="about"><a id="about"></a>
       <div className="info-header">
         <h2>About</h2>
       </div>
