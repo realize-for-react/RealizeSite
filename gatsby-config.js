@@ -7,7 +7,8 @@
 module.exports = {
   siteMetadata: {
     title: "Realize",
-    description: "Realize is an extension for Chrome and Firefox to visualize state flow and React app hierarchy."
+    description: "Realize is an extension for Chrome and Firefox to visualize state flow and React app hierarchy.",
+    image: "src/pages/images/realizeLogoPNG.png"
   },
   /* Your site config here */
   plugins: [
@@ -17,7 +18,6 @@ module.exports = {
         google: {
           families: ['MuseoModerno', 'Roboto', 'Droid Serif', 'Source Sans Pro']
         },
-        icon: 'src/pages/images/favicon.ico',
       }
     },
     `gatsby-plugin-sass`, 

@@ -6,9 +6,8 @@ export default function Demo() {
       <div className="info-header">
         <h2>Demo</h2>
       </div>
-      <center>
         <img className="desktopDemo" src="https://i.imgur.com/oVjYGHR.png" />
-      </center>
+      
     </div>
   )
 }
