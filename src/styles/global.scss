@@ -64,6 +64,7 @@ h2 {
 
 #container {
   @extend %flex-column-setup;
+  overflow-x: none;
 }
 
 
@@ -138,25 +139,24 @@ h2 {
 .desktopDemo {
   width: 32em;
   opacity: 0.5;
-  transition: 1.0s;
-
-  :hover{
-    opacity: 1.0;
-  }  
+  transition: 1.0s; 
 }
+:hover{
+  opacity: 1.0;
+} 
 
 
 .profile {
   text-align: center;
   border-radius: 65% 70%;
-  width: 250px;
+  width: 8em;
   padding: 1em;
   opacity: 0.5;
   transition: 1.5s;
 
-  :hover {
-    opacity: 1.0;
-  }
+}
+:hover {
+  opacity: 1.0;
 }
 
 
