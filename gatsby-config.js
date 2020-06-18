@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Realize",
-    description: "Realize is an extension for Chrome and Firefox to visualize state flow and React app hierarchy.",
-    image: "src/pages/images/realizeLogoPNG.png"
+    title: 'Realize',
+    // description: "Realize is an extension for Chrome and Firefox to visualize state flow and React app hierarchy.",
+    // image: "../src/pages/images/realizeLogoPNG.png"
   },
   /* Your site config here */
   plugins: [
@@ -18,9 +18,10 @@ module.exports = {
         google: {
           families: ['MuseoModerno', 'Roboto', 'Droid Serif', 'Source Sans Pro']
         },
+        icon: "../src/pages/images/realizeLogoPNG.png"
       }
     },
     `gatsby-plugin-sass`, 
-    `gatsby-plugin-react-helmet`
+    // `gatsby-plugin-react-helmet`
   ]
 }
