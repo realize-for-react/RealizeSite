@@ -40,7 +40,7 @@ $bg-color-lighter: #0b1419;
 %body-container-setup {
   padding: 2em;
   z-index: -1;
-  font-size: 2em;
+  font-size: 1em;
   color: rgb(160, 175, 194);
 }
 
@@ -168,7 +168,7 @@ h2 {
 }
 
 .authors-profile {
-  flex-basis: 2em;
+  flex-basis: 5em;
 }
 
 .aboutContent {
