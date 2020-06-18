@@ -11,9 +11,10 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['MuseoModerno', 'Roboto', 'Droid Serif']
+          families: ['MuseoModerno', 'Roboto', 'Droid Serif', 'Source Sans Pro']
         }
       }
-    }
+    },
+    `gatsby-plugin-sass`
   ]
 }

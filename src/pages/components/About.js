@@ -1,32 +1,20 @@
 import React from 'react'
+import treeViz from '../images/treeVizDemo.gif';
 
 export default function About() {
   return (
     <div className="about"><a id="about"></a>
-    <h2>Contributors</h2><p></p>
-      <div className="profileDiv">
-        Fan <br />
-        <img className="profile" src="https://i.imgur.com/KHTLGyV.png" />
-        <a href="" target="_blank">Github</a> | <a href="" target="_blank">LinkedIn</a>
+      <div className="info-header">
+        <h2>About</h2>
       </div>
-      <div className="profileDiv">
-        Harry <br />
-        <img className="profile" src="https://i.imgur.com/N1uPhT7.png" /> 
-        Github | LinkedIn
+      <div className="aboutWrap">
+        <div className="aboutContent">
+          <img src={treeViz} className="desktopDemo" />
+        </div>
+        <div className="aboutContent">
+        As React applications scale, it becomes more difficult to track state and to have a holistic overview of the component hierarchy. Realize is a tool to help developers visualize the structure and state flow of their React applications, especially when they are growing in scale and complexity. It currently supports React v.16.8.
+        </div>  
       </div>
-      <div className="profileDiv">
-        Henry <br />
-        <img className="profile" src="https://i.imgur.com/GjDI6Wq.png" />
-        Github | LinkedIn
-      </div>
-      <div className="profileDiv">
-        Horatiu <br />
-        <img className="profile" src="https://i.imgur.com/cXiOkCh.png" />
-        Github | LinkedIn
-      </div>
-    
-    
-    
   </div>
   )
 }

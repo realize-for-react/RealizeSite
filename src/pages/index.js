@@ -5,7 +5,7 @@ import Title from "./components/Title.js";
 import Installation from "./components/Installation.js";
 import Demo from './components/Demo.js';
 import About from './components/About.js';
-import Feedback from './components/Feedback.js';
+import Authors from './components/Authors.js';
 import Contribute from './components/Contribute.js';
 
 
@@ -15,10 +15,10 @@ export default function Home() {
       <Nav />
       <Spacer />
       <Title />
-      <Installation />
-      <Demo />
       <About />
-      <Feedback />
+      <Installation />
+      <Demo />   
+      <Authors />
       <Contribute />
     </div>  
 
