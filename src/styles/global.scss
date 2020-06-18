@@ -40,7 +40,6 @@ $bg-color-lighter: #0b1419;
 %body-container-setup {
   padding: 2em;
   z-index: -1;
-  font-size: 1.8em;
   color: rgb(160, 175, 194);
 }
 
@@ -111,12 +110,14 @@ h2 {
   @extend %body-container-setup;
   @extend %default-link-styling;
   background-color: $bg-color-dark;
+  font-size: 1.8em;
 }
 
 .about, .demo, .contribute {
   @extend %body-container-setup;
   @extend %default-link-styling;
   background-color: $bg-color-lighter;
+  font-size: 1.8em;
 }
 
 .main-title {

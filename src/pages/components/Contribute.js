@@ -8,7 +8,7 @@ export default function Contribute() {
       <h2>Contribute!</h2>
     </div>
     
-    We would love for you to test out our extensions and submit any issues you encounter. Feel free to <a href="https://github.com/oslabs-beta/Realize">fork to your own repo</a> and submit PRs. Some features we would like to add:
+    We would love for you to test out our extension and submit any issues you encounter. Feel free to <a href="https://github.com/oslabs-beta/Realize">fork to your own repo</a> and submit PRs. Some features we would like to add:
     <p></p>
     <ul>
       <li>Performance data on render times</li>
