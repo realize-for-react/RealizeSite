@@ -101,7 +101,6 @@ h2 {
 }
 
 .inner-align {
-  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -149,7 +148,7 @@ h2 {
 .profile {
   text-align: center;
   border-radius: 65% 70%;
-  width: 8em;
+  width: 4em;
   padding: 1em;
   opacity: 0.5;
   transition: 1.5s;

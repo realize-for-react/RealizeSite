@@ -7,7 +7,7 @@ export default function Title() {
       <div className="inner-align">
         <img className="logoGif" width="25%" src={gifLogo} />
         <div className="main-title">Realize</div>
-        <div className="sub-title">Browser extension to visualize React state flow and component hierarchy </div>
+        <div className="sub-title">Browser extension to visualize React state flow and component hierarchy</div>
 
       </div>
     </div>
