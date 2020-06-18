@@ -138,11 +138,7 @@ h2 {
 .desktopDemo {
   width: 32em;
   opacity: 0.5;
-  transition: 1.0s; 
 }
-.desktopDemo:hover{
-  opacity: 1.0;
-} 
 
 
 .profile {
@@ -172,8 +168,7 @@ h2 {
 }
 
 .authors-profile {
-  overflow: none;
-  width: 50%;
+  flex-basis: 2em;
 }
 
 .aboutContent {
