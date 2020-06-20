@@ -12,16 +12,8 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['MuseoModerno', 'Roboto', 'Droid Serif', 'Source Sans Pro']
-        },
-        icon: "../src/pages/images/realizeLogoPNG.png"
-      }
-    },
-    `gatsby-plugin-sass`, 
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
     // `gatsby-plugin-react-helmet`
   ]
 }
