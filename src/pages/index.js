@@ -11,9 +11,6 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Droid+Serif&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 `;
 
 export default function Home() {
