@@ -7,22 +7,28 @@ import Demo from './components/Demo.js';
 import About from './components/About.js';
 import Authors from './components/Authors.js';
 import Contribute from './components/Contribute.js';
+import { createGlobalStyle } from 'styled-components';
 
+const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+`;
 
 export default function Home() {
   return (
-    <div className="container">
-      <Nav />
-      <Spacer />
-      <Title />
-      <About />
-      <Installation />
-      <Demo />   
-      <Authors />
-      <Contribute />
-    </div>  
-
-    )
+    <>
+      <GlobalStyle />
+      <div className="container">
+        <Nav />
+        <Spacer />
+        <Title />
+        <About />
+        <Installation />
+        <Demo />
+        <Authors />
+        <Contribute />
+      </div>
+    </>
+  )
 }
 
 
